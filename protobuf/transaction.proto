@@ -56,7 +56,7 @@ message Transaction {
             Query.Res query_res = 8;
             ConceptManager.Res concept_manager_res = 9;
             Thing.Res thing_res = 10;
-            grakn.protocol.Type.Res type_res = 11;
+            bool type_res = 11;
             Rule.Res rule_res = 12;
         }
     }
